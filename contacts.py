@@ -10,7 +10,7 @@ def load_contacts():
 load_contacts()
 
 contacts = load_contacts()
-
+# ask user to add a contact
 def add_contact():
 
     name = input("Enter your name\n")
