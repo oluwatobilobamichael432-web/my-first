@@ -3,7 +3,7 @@ contacts = [
     {"name": "Amy", "phone": "08098765432", "email": "amy@mail.com"}
 ]
 
-def view_contol():
+def view_contacts():
     
     if not contacts:
         print("No contact yet")
@@ -12,4 +12,4 @@ def view_contol():
             print(f"Name: {contact['name']} | Phone: {contact['phone']} | Email: {contact['email']}")
 
 
-view_contol()
+view_contacts()
