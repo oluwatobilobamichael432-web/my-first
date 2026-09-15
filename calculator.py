@@ -16,6 +16,6 @@ def calculator():
     elif operator == "/":
         return first / second
     else:
-        return "invalid input"
+        return "invalid operator"
 
 print(calculator())
