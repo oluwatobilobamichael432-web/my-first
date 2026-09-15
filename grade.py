@@ -8,7 +8,7 @@ def grade():
         ]
 
     for student in students:
-        average = float(student[1] + student[2] + student[3]) / 3
+        average = round(float(student[1] + student[2] + student[3]) / 3, 2)
         name = student[0]
 
         if average >= 70:
