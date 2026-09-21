@@ -1,5 +1,4 @@
-def calculator():
-
+def calulator():
     try:
         first = int(input("Enter first number\n"))
         operator = input("Enter an operator\n")
@@ -7,6 +6,7 @@ def calculator():
     except:
         return "Invalid input"
 
+    
     if operator == "+":
         return first + second
     elif operator == "-":
@@ -14,10 +14,10 @@ def calculator():
     elif operator == "*":
         return first * second
     elif operator == "/":
-        if first == 0 or second == 0:
+        if first == 0 or second == 0 :
             return "Cannot divide by zero"
         return first / second
     else:
-        return "invalid operator"
+        return "Invalid operator"
 
-print(calculator())
+print(calulator())
